@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- the google font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- link css -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>Article Preview Component</title>
+</head>
+<body>
+    <div class="outside-article">
+        <!-- article -->
+        <article class="article">
+            <!-- main img -->
+            <div class="img-div">
+                <img src="./images/drawers.jpg" alt="drawers-decor" class="main-img">
+            </div>
+            
+            <div class="article-content">
+                <!-- all the text content -->
+                <div class="text">
+                    <a href="#"><h1 class="main-header">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1></a>
+                    <p class="main-para">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.</p>
+                </div>
+                
+                <div class="footer">
+                    <!-- the footer of the article -->
+                    <div class="avatar-info">
+                        <!-- all the info -->
+                        <div class="avatar-img">
+                            <img src="./images/avatar-michelle.jpg" alt="avatar-img" class="avatar-img">
+                        </div>
+                        <div>
+                            <p class="name">Michelle Appleton</p>
+                            <p class="date">28 Jun 2020</p>  
+                        </div>
+                    </div>
+                    <div class="share">
+                        <!-- share icon -->
+                        <button class="share-btn" id="share-btn"><img src="./images/icon-share.svg" alt="share-icon" class="share-img"></button>
+                    
+                        <div class="share-options active">
+                        <!-- the toggled social media  -->
+                        <span>SHARE</span>
+
+                        <a href="#"><img src="./images/icon-facebook.svg" alt="icon-facebook" class="icons"></a>
+                        <a href="#"><img src="./images/icon-twitter.svg" alt="icon-twitter"></a>
+                        <a href="#"><img src="./images/icon-pinterest.svg" alt="icon-pinterest"></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
